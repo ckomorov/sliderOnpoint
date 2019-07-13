@@ -3,11 +3,128 @@
 <head>
 	<meta charset="UTF-8">
 	<title>OnPoint</title>
-
-	<link rel="stylesheet" href="css/main.css">
+	
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/swiper.css">
+	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 </head>
 <body>
-	
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div id="first" class="swiper-slide">
+                <div class="content-layer">
+                    
+                    <div id="header">
+                        <h1>
+                            Всегда ли цели терапии СД2 <br>
+                            на поверхности?
+                        </h1>
+                    </div>
+
+                    <div id="first-line">   
+                        <div id="pulse01" class="pulse"></div>
+                        <p id="text01" class="text">Цель по HbA1c</p>
+                    </div>
+
+                    <div id="second-line">
+                        <p id="text02" class="text">Гипогликемия</p>
+                        <div id="pulse02" class="pulse"></div>
+                    </div>
+                    
+                    <div id="third-line">
+                        <p id="text03" class="text">Осложнения СД</p>
+                        <p id="text04" class="text">СС риски</p>
+                        <div id="pulse03" class="pulse"></div>
+                        <div id="pulse04" class="pulse"></div>
+                    </div>
+
+                    <!-- <div class="arrow-block">
+                        <div class="arrow-text">
+                            <p>Листайте вниз</p>
+                        </div>
+                        <div class="arrow-line">
+                            <svg 
+                                version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 86.4 43.3" style="enable-background:new 0 0 86.4 43.3;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-linecap:round;}
+                                </style>
+                                <path class="st0" d="M2.5,2.5l41.2,37.4L83.9,2.5"/>
+                            </svg>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+            <div id="second" class="swiper-slide">
+                <div class="content-layer">
+                    <div id="line01">
+                        <div id="ice21" class="ice">
+                            <img src="img/ice/ice21.png" alt="">
+                        </div>
+                        <div id="ice22" class="ice">
+                            <img src="img/ice/ice22.png" alt="">
+                        </div>
+                    </div>
+                    <div id="line02">
+                        <h2>Основа терапии — <br>патогенез СД2</h2>
+                    </div>
+                    <div id="line03">
+                        <div id="ice23" class="ice">
+                            <img src="img/ice/ice23.png" alt="">
+                        </div>
+                        <div id="ice24" class="ice">
+                            <img src="img/ice/ice24.png" alt="">
+                        </div>                        
+                    </div>
+
+                    <div class="arrow-block">
+                        <div class="arrow-text">
+                            <p>Листайте вниз</p>
+                        </div>
+                        <div class="arrow-line">
+                            <svg 
+                                version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 86.4 43.3" style="enable-background:new 0 0 86.4 43.3;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-linecap:round;}
+                                </style>
+                                <path class="st0" d="M2.5,2.5l41.2,37.4L83.9,2.5"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="third" class="swiper-slide">
+				
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      direction: 'vertical',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
 </body>
 </html>
+
+
+
