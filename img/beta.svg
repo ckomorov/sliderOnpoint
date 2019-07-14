@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="121" viewBox="0 0 64 121">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 113.101px;
+        filter: url(#filter);
+        fill: #731116;
+        text-anchor: middle;
+        font-family: Lato;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="filter" x="1019" y="390" width="64" height="121" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="β" class="cls-1" transform="translate(29.92 97.404) scale(1.174 1.174)"><tspan x="0">β</tspan></text>
+</svg>

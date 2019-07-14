@@ -15,8 +15,11 @@
     <!-- Swiper -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
+
+                    <!-- /* FIRST SLIDE */ -->
+
             <div id="first" class="swiper-slide">
-                <div class="content-layer">
+                <div class="content-layer" id="slide01">
                     
                     <div id="header">
                         <h1>
@@ -41,8 +44,7 @@
                         <div id="pulse03" class="pulse"></div>
                         <div id="pulse04" class="pulse"></div>
                     </div>
-
-                    <!-- <div class="arrow-block">
+                    <div class="arrow-block">
                         <div class="arrow-text">
                             <p>Листайте вниз</p>
                         </div>
@@ -57,12 +59,14 @@
                                 <path class="st0" d="M2.5,2.5l41.2,37.4L83.9,2.5"/>
                             </svg>
                         </div>
-                    </div> -->
-
+                    </div>
                 </div>
             </div>
+
+                    <!-- /* SECOND SLIDE */ -->
+
             <div id="second" class="swiper-slide">
-                <div class="content-layer">
+                <div class="content-layer" id="slide02">
                     <div id="line01">
                         <div id="ice21" class="ice">
                             <img src="img/ice/ice21.png" alt="">
@@ -84,7 +88,7 @@
                     </div>
 
                     <div class="arrow-block">
-                        <div class="arrow-text">
+                       <div class="arrow-text">
                             <p>Листайте вниз</p>
                         </div>
                         <div class="arrow-line">
@@ -102,10 +106,168 @@
 
                 </div>
             </div>
+
+                        <!-- /* THIRD SLIDE */ -->
+
             <div id="third" class="swiper-slide">
-				
+				<div class="content-layer" id="slide03">
+                    <div id="row">
+                      <div id="ice31" class="ice">
+                          <img src="img/ice/ice31.png" alt="">
+                      </div>
+                      <h2 id="last-h2">Звенья патогенеза СД2</h2>
+                  </div>
+                  
+                  <div id="cols">
+                    <div id="slide03-left" class="slide03-col"></div>
+                    <div id="slide03-img"><img src="img/tab.png" alt="" id="img03"></div>
+                    <div id="slide03-right" class="slide03-col">
+                        <div class="ice" id="ice33">
+                            <img src="img/ice/ice33.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row-bottom">
+                        <div class="ice" id="ice32">
+                            <img src="img/ice/ice32.png" alt="">
+                        </div>
+                    </div>
+
+<!-- БЛОК НЕНУЖНОЙ ДЕТАЛЬНОЙ ВЕРТКИ ТРЕТЬЕГО СЛАЙДА
+
+ COLUMN 01 
+                        <div id="col01" class="column">
+                            <div class="row-in-col" id="ric01">
+                                <div class="col-txt">
+                                    
+                                        <p class="num">8</p>
+                                        <p id="txt08" class="txt">Микрофлора<br> кишечника</p>
+                                    
+                                </div>
+                                
+                                <div class="col-img">
+                                    <img src="img/items/item08.png" salt="">
+                                </div>
+ 
+                            </div>
+                            <div class="row-in-col" id="ric02">
+                                <div class="col-txt">
+                                    
+                                        <p class="num">9</p>
+                                        <p id="txt09" class="txt">Нарушение имунной<br> регуляции/воспаление</p>
+                                    
+                                </div>
+                                
+                                <div class="col-img">
+                                    <img id="img09" src="img/items/item09.png" alt="">
+                                </div>
+                            </div>
+                            
+                            <div class="row-in-col" id="ric03">
+                                <div id="amilin">
+                                    <div id="amilin-text">
+                                        <span id="arrow01">↓</span> амилин
+                                    </div>
+                                    <div id="amilin-arrow">
+                                        <div id="am-arrow" class="arrow">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+ 
+                            <div class="row-in-col" id="ric04">
+                                <div class="col-txt">
+                                    
+                                        <p class="num">10</p>
+                                        <p id="txt10" class="txt">Желудок</p>
+                                    
+                                </div>
+                                
+                                <div class="col-img">
+                                    <img id="img10" src="img/items/item10.png" alt="">
+                                </div>
+                            </div>
+ 
+                            <div class="ice" id="ice32">
+                                <img src="img/ice/ice32.png" alt="">
+                            </div>
+                        </div>  
+ COLUMN 02     
+                        <div id="col02" class="column">
+                            <div class="row-in-col" id="ric04">
+                                <div class="col-txt" id="txt01">
+                                    <p><span class="num">1 </span><span id="txt01" class="txt"> β-клетки</span></p> 
+                                </div>
+                            </div>
+                            <div class="row-in-col" id="ric05">
+                                <div id="left-arrows">
+                                    <div class="arrow" id="left-arrow01"></div>
+                                    <div class="arrow" id="left-arrow02"></div>
+                                    <div class="arrow" id="left-arrow03"></div>
+                                    <div class="arrow" id="left-arrow04"></div>
+                                </div>
+                                <div id="beta-img" class="col-img">
+                                    <p id="beta">β</p>
+                                </div>
+                                <div id="right-arrows"></div>
+                            </div>
+                            <div class="row-in-col" id="ric06">
+                                <div id="center-arrows">
+                                   <div class="arrow" id="center-arrow01"></div>
+                                   <div class="arrow" id="center-arrow02"></div>
+                                </div>
+                                <div id="center-text">
+                                    <div id="center-text-left" class="col-txt">
+                                        <p class="num">2</p>
+                                        <p id="txt02" class="txt">↓ инкретивного эффекта</p>
+                                    </div>
+                                    <div id="center-arrow03"></div>
+                                    <div id="center-text-right" class="col-txt">
+                                        <p class="num">3</p>
+                                        <p id="txt03" class="txt">Дефект α-клеток</p>
+                                        <p>↓</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-in-col" id="ric07">
+                                
+                            </div>
+                            <div class="row-in-col" id="ric08">
+                                <div class="gm-block" id="giperglikemia-left"></div>
+                                <div id="giperglikemia-center">
+                                    <div class="txt" id="gm-title">
+                                        <p>Гипергликемия</p>
+                                    </div>
+                                    <div id="gm-arrows">
+                                        <div class="arrow"></div>
+                                    </div>
+                                    <div id="gm-row">
+                                        <div class="gm"><div class="col-txt">
+                                            <p class="num">11</p>
+                                            <p id="txt11" class="txt">Почки</p>
+                                        </div></div>
+                                        <div class="gm-img"><div id="item11-img" class="col-img">
+                                            <img src="img/items/item11.png" alt="">
+                                        </div></div>
+                                        <div class="gm"></div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                                <div class="gm-block" id="giperglikemia-right"></div>
+                            </div>
+                        </div>   
+ COLUMN 03 
+                        <div id="col03" class="column">
+                            
+                            <div class="row-in-col" id="ric09"></div>
+                        </div>      
+-->
+                    </div>  
+                </div> 
             </div>
         </div>
+
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
     </div>

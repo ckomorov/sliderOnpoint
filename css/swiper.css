@@ -33,6 +33,7 @@
     transition-property: transform, -webkit-transform;
     -webkit-box-sizing: content-box;
     box-sizing: content-box
+    
 }
 
 .swiper-container-android .swiper-slide,
@@ -528,8 +529,8 @@ button.swiper-pagination-bullet {
     -webkit-transform-origin: 50%;
     -ms-transform-origin: 50%;
     transform-origin: 50%;
-    -webkit-animation: swiper-preloader-spin 1s steps(12, end) infinite;
-    animation: swiper-preloader-spin 1s steps(12, end) infinite
+    -webkit-animation: swiper-preloader-spin 15s steps(12, end) infinite;
+    animation: swiper-preloader-spin 15s steps(12, end) infinite
 }
 
 .swiper-lazy-preloader:after {
@@ -570,12 +571,12 @@ button.swiper-pagination-bullet {
     z-index: -1000
 }
 
-.swiper-container-fade.swiper-container-free-mode .swiper-slide {
-    -webkit-transition-timing-function: ease-out;
-    -o-transition-timing-function: ease-out;
-    transition-timing-function: ease-out
+/* .swiper-container-fade.swiper-container-free-mode .swiper-slide {
+    -webkit-transition: 5s ease-in;
+    -o-transition: 5s ease-in;
+    transition: 5s ease-in
 }
-
+ */
 .swiper-container-fade .swiper-slide {
     pointer-events: none;
     -webkit-transition-property: opacity;
